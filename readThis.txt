@@ -1,0 +1,29 @@
+This project is seperated into three programs:
+
+Data Reading: 
+
+- datareading.py
+
+- This script reads pcapng data from the linked file, and converts to CSV data
+- For HTTP information as well as general packets informatin
+
+Data Cleaning:
+
+- cleanerUpper.py
+
+- This file takes the read data produced by datareading.py and cleans it for analysis
+- The files that it uses are already created by the previous script so there is no need to create new files
+- Towards the end of the file there is feature extraction based on the available data
+
+EDA:
+
+- EDA.py
+- This is an optional script that is not necessary if you want to run the program as is
+- It is intended to build a basic visual understanding of the data for more complex analysis
+
+Analysis:
+
+- analysisVisual.py
+
+- This script produces visuals for meaningful insight into the security posture of the network being analyzed.
+
